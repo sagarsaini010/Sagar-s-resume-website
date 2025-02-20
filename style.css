@@ -1,0 +1,235 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+.top-png{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ol{
+    list-style: none;
+    text-align: start;
+}
+.top-png-main{
+    width: 300px;
+    margin-right: 50px;
+}
+.introduction{
+    background-color: #03A678;
+}
+.about-me{
+  display: flex;
+  justify-content: center;
+  color: #F8B1D3;
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 800;
+    font-style: normal;  
+  
+}   
+.name{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+.profession{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+.down-png{
+    display: flex;
+    justify-content: flex-start;
+}
+.down-png-main{
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+.my-image{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+ .my-image-main{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+ }
+
+.my-education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-education > h2{
+     font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+      
+
+
+font-size: 3rem;
+margin-bottom: 30px;
+
+
+
+}
+
+ ul{
+    list-style: none;
+ }
+ ul > li {
+    text-align:center ;
+    margin: 5px;
+ }
+ .my-skill-profile > h2{
+
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+      
+
+
+font-size: 3rem;
+margin-bottom: 30px;
+margin-top: 30px;
+ }
+.my-work-exprience{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-work-exprience > h2{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+      
+
+
+font-size: 3rem;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.my-work-exprience > p{
+    margin: 2px;
+}
+
+footer{
+    background-color:#02B3A3 ;
+}
+.border-bottom{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+      
+}
+.social-link > div{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+.container > h2{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.aboutme{
+    font-size: 1.2rem;
+}
+.aboutme > h2{
+    margin-bottom: 30px;
+}
+#contact > h2{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+@media (max-width: 620px){
+    .top-png{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .top-png-main{
+        width: 200px;
+        margin-right: 50px;
+        position: static;
+    }
+
+    .name{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 3rem;
+    }
+
+    .profession{
+        margin-bottom:50px;
+        font-size: 2rem;
+    }
+
+    .down-png{
+        display: flex;
+        justify-content: center;
+    }
+    .down-png-main{
+        width: 200px;
+        padding-right: 0%;
+        margin-bottom: 50px;
+        
+    }
+
+
+
+
+    .my-education{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-education > h2{
+         font-family: "Exo 2", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+          
+    
+    
+    font-size: 2rem;
+    margin-bottom: 30px;
+    
+    
+    }
+
+    .my-skill-profile > h2{
+
+        font-family: "Exo 2", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+          
+    
+    
+    font-size: 2rem;
+    margin-bottom: 30px;
+    
+    }
+    
+.my-work-exprience > h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+    .my-image-main{
+        height: 175px;
+        width: auto;
+        border-radius: 50%;
+        margin-top: 50px;
+     }
+
+}
+    
